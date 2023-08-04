@@ -1,8 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
 import './index.js';
-import yourImage from "C:/Users/J SRI THRISHNA/Documents/node/srithrishna/src/experience.jpeg";
+import pic from './experience.jpeg' ;
 import React, { useState } from 'react';
+
+
 
 
 function App() {
@@ -59,8 +61,8 @@ function App() {
           <h1>Hello</h1>
           <p>Thrishna Jayakumar</p>
         <p><em>THIS IS SRI THRISHNA</em></p>
-        <div class = "image">
-          <img src={yourImage} alt='Pic' />
+        <div>
+          <img src={pic} />
         </div>
         <h2>EDUCATION</h2>
           
