@@ -1,9 +1,11 @@
 .App {
-  text-align: center;
+  text-align:left;
+  background-color: #282c34;
+  color: white;
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 5vmin;
   pointer-events: none;
 }
 
@@ -15,12 +17,12 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 10vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: left;
+  justify-content: left;
+  font-size: calc(5px + 2vmin);
   color: white;
 }
 
@@ -35,4 +37,50 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.grid-container{
+  display: grid;
+  grid-template-columns:auto;
+  background-color:black;
+  padding: 10px;
+
+}
+.grid-item {
+  background-color:rgb(143, 193, 143);
+  border: 3px solid black;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+
+}
+.container{
+  max-width: 800px;
+  min-height: 600px;
+  margin-inline: auto;
+  display: flex;
+  gap: 1rem;
+  
+  justify-content: center;
+  
+  align-items: center;
+  flex-direction:row-reverse;
+  flex-flow:row wrap;
+
+  
+}
+.be{
+  height: 100px;
+  background-color: rgb(161, 107, 125);
+  color: beige;
+  font-size: 2rem;
+  padding: 0.5rem;
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+  border:3px solid black;
+  
+  align-items: center;
+  flex-basis: 100px;
+  flex-grow: 1;
 }
