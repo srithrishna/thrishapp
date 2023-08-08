@@ -7,14 +7,12 @@ const Biodata = () => {
     <div style={{ display: 'flex', justifyContent: 'centre', alignItems: 'Centre', flexWrap: 'wrap', maxWidth: '800px', margin: '0 auto' }}>
       <div style={{ flex: '0 0 48%', marginBottom: '20px' }}>
         <h2>Personal Information</h2>
-        <p><b>Name:</b> Sri Thrishna</p>
+        <p><b>Name:</b> Sri Thrishna J</p>
         <p><b>DOB:</b> 23/02/2004</p>
         <p><b>Age: </b>19</p>
-        <p><b>Eamil: </b></p>
-        <p>thrishna23jayakumar@gmail.com</p>
         <p><b>Phone number: </b>9344553386</p>
         <p><b>Address:</b> V G Rao Nagar, Udumalpet, Tiruppur
-        <br /> 642 126</p>
+        <br /> 642 126.</p>
       </div>
       <div style={{ flex: '0 0 48%', marginBottom: '20px', marginLeft:'30px' }}>
         <h2>Education</h2>
