@@ -10,7 +10,8 @@ const Biodata = () => {
         <p><b>Name:</b> Sri Thrishna</p>
         <p><b>DOB:</b> 23/02/2004</p>
         <p><b>Age: </b>19</p>
-        <p><b>Eamil: </b>thrishna23jayakumar@gmail.com</p>
+        <p><b>Eamil: </b></p>
+        <p>thrishna23jayakumar@gmail.com</p>
         <p><b>Phone number: </b>9344553386</p>
         <p><b>Address:</b> V G Rao Nagar, Udumalpet, Tiruppur
         <br /> 642 126</p>
